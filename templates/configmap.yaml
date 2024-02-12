@@ -5,3 +5,4 @@ metadata:
   namespace: argocd
 data:
   myvalue: "Ciao mondo"
+  myreplica: {{ .Values.replicaCount }}
